@@ -81,7 +81,7 @@ top (int argc, char **argv)
 	bool autotakeoff = false;
 
 	// do the parse, will throw an int if it fails
-	parse_commandline(argc, argv, uart_name, baudrate, use_udp, udp_ip, udp_port, autotakeoff);
+    //parse_commandline(argc, argv, uart_name, baudrate, use_udp, udp_ip, udp_port, autotakeoff);
 
 
 	// --------------------------------------------------------------------------
