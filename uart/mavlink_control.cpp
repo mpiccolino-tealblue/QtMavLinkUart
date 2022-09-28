@@ -447,22 +447,22 @@ quit_handler( int sig )
 // ------------------------------------------------------------------------------
 //   Main
 // ------------------------------------------------------------------------------
-int
-main(int argc, char **argv)
-{
-	// This program uses throw, wrap one big try/catch here
-	try
-	{
-		int result = top(argc,argv);
-		return result;
-	}
+//int
+//main(int argc, char **argv)
+//{
+//	// This program uses throw, wrap one big try/catch here
+//	try
+//	{
+//		int result = top(argc,argv);
+//		return result;
+//	}
 
-	catch ( int error )
-	{
-		fprintf(stderr,"mavlink_control threw exception %i \n" , error);
-		return error;
-	}
+//	catch ( int error )
+//	{
+//		fprintf(stderr,"mavlink_control threw exception %i \n" , error);
+//		return error;
+//	}
 
-}
+//}
 
 
